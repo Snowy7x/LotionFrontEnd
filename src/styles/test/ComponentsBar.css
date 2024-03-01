@@ -1,0 +1,15 @@
+.bar {
+    background-color: #161616;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width:  10vh;
+    height: 100vh;
+    padding-top: 5vh;
+    /* Allow child to appear on top of parent */
+    position: relative;
+    z-index: 1;
+    border-right-color: #3f3f3f;
+    border-right-width: 1px;
+}
